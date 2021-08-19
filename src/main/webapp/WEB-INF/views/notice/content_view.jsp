@@ -79,7 +79,7 @@
 						<input type="hidden" id="board_id" value="${content_view.board_id}">
 						<tr>
 							<td class="content_head"> 제목</td>
-							<td colspan="3"><input type="text" class="textarea-custom py-1" id="b_title"
+							<td colspan="3"><input type="text" class="textarea-custom py-2 form-control_2" id="b_title"
 									value="${content_view.b_title}"></td>
 						</tr>
 						<tr>

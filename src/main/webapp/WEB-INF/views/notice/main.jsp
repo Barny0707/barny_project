@@ -254,7 +254,7 @@
 
 			<%--searching button--%>
 			<div class="table-responsive outline pt-4">
-				<form class="d-flex mb-3" id="searchForm" action="/notice" method='get' style="float: right;">
+				<form class="d-flex mb-3" id="searchForm" action="/admin/notice/main" method='get' style="float: right;">
 					<select name='type' class="searching_option">
 						<option value="" <c:out value="${pageMaker.cri.type == null?'selected':''}" />>--</option>
 						<option value="T" <c:out value="${pageMaker.cri.type eq 'T'?'selected':''}" />>제목</option>
